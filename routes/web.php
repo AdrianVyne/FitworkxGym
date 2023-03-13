@@ -14,7 +14,20 @@ use App\Http\Controllers\UsersController;
 |
 */
 
+Route::get('/contact', function () {
+    return view('contract-us');
+});
+
+
+Route::get('/services', function () {
+    return view('gym-services');
+});
+
 Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/login', function () {
     return view('login');
 });
 
@@ -32,4 +45,8 @@ Route::get('/testdb', function () {
     } catch (\Exception $e) {
         die("Could not connect to the database. " . $e->getMessage());
     }
+});
+
+Route::fallback(function () {
+    return view('errors'); // errors blade
 });
