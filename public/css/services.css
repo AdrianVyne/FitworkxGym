@@ -1,4 +1,3 @@
-
 body html.desktop-version ::-webkit-scrollbar {
     -webkit-appearance: none !important;
     background-color: #fec00b !important;
@@ -1225,7 +1224,7 @@ lesshat-selector {
 }
 #testemonials #testemonial-details .testemonial-image {
     height: 100%;
-    width: 48.8%;
+    width: 45.8%;
 }
 #testemonials #testemonial-details .testemonial-image .lazyload-image {
     background-size: cover;
@@ -1696,8 +1695,8 @@ lesshat-selector {
         -moz-background-clip: padding;
         border-radius: 5px;
         background-clip: padding-box;
-        height: 35rem;
-        width: 28rem;
+        height: 30rem;
+        width: 23rem;
         position: absolute;
         bottom: -38.4rem;
         left: 50%;

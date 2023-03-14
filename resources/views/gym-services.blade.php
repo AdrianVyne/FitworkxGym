@@ -6,17 +6,7 @@
 </head>
 <body>
     {{-- top part --}}
-    <div class="top"> 
-    {{-- <img src="{{ asset('img/7.jpg') }}" alt="" width="100%"> --}}
-    asda    
-    asd
-    asd
-    adsas
-    da
-    sd
-    asd
-    asda
-    sd
+    
 
     </div>
     {{-- presentation --}}
