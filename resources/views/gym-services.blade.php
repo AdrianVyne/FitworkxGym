@@ -1,14 +1,27 @@
 <!doctype html>
 <html>
 <head>
-    @include("layouts/head")
     <title>Fitworx - Gym Services </title>
+    @include("layouts/head")
 </head>
 <body>
-    <img src="{{ asset('img/7.jpg') }}" alt="" width="100%">
+    {{-- top part --}}
+    <div class="top"> 
+    {{-- <img src="{{ asset('img/7.jpg') }}" alt="" width="100%"> --}}
+    asda    
+    asd
+    asd
+    adsas
+    da
+    sd
+    asd
+    asda
+    sd
+
+    </div>
+    {{-- presentation --}}
     <section id="presentation">
         <div class="presentation-wrapper">
-
             <div class="presentation-text">
                 <h2 class="presentation-phrase"><span>This is how</span> <span>We do it</span>
                 </h2>
@@ -50,6 +63,7 @@
             </div>
         </div>
     </section>
+    {{-- supposed to be testimonials but changed to amenities --}}
     <section id="testemonials">
         <h4 class="testemonial-intro"><span>BEST AMENITIES FOR</span> <span>THE BEST GYM COMFORT</span></h4>
         <div class="common-limiter">
@@ -144,10 +158,6 @@
                             <p class="testemonial-role"> Complimentary Towel Service for Your Workout Needs</p>
                             <div class="testemonial-performa-text common-text">
                                 <p>Convenient and Hassle-Free Service for Our Members</p>
-
-                                <p>&nbsp;</p>
-
-                                <p>&nbsp;</p>
                             </div>
                             <div class="testemonial-text common-text">
                                 <p><em>At Fitworx, we offer complimentary towel service to all of our members. Our towel
@@ -180,13 +190,7 @@
             </div>
         </div>
     </section>
-
-    <!-- jquery cdn -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <!-- homemade js -->
-    <script src="{{ asset('js/plugins.js') }}"></script>
-<script src="{{ asset('js/gym-services.js') }}"></script>
+    @include("layouts/scripts")
 </body>
 
 </html>
