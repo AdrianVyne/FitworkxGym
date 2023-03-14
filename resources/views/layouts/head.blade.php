@@ -14,3 +14,5 @@
 {{-- fav icon --}}
 <link rel="icon" type="image/png" href="{{ asset('img/fav.jpg') }}">
 
+{{-- slick css file--}}
+<link rel="stylesheet" href="{{ asset('css/slick.min.css') }}">

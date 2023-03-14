@@ -6,7 +6,78 @@
 </head>
 <body>
     {{-- top part --}}
-    
+    <section class="s-crossfit-slider">
+		<div class="crossfit-slider">
+			<div class="crossfit-slide">
+				<div class="crossfit-slider-effect effect-1">
+					<div data-hover-only="true" class="scene">
+						<span class="scene-item" data-depth="0.2"
+							style="background-image: url({{ asset('img/effect-1.svg') }});"></span>
+					</div>
+				</div>
+				<div class="crossfit-slider-effect effect-2">
+					<div data-hover-only="true" class="scene">
+						<span class="scene-item" data-depth="0.4"
+							style="background-image: url({{ asset('img/effect-2.svg') }});"></span>
+					</div>
+				</div>
+				<div class="crossfit-slide-bg" style="background-image: url({{ asset('img/slide-1.jpg') }});"></div>
+				<div class="container">
+					<div class="crossfit-slide-cover">
+						<h2 class="title">push <span>yourself</span></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et harum aperiam facilis ullam nihil quae dolore quisquam neque sunt, praesentium dolorum dicta aspernatur laboriosam vitae, aut esse. Reprehenderit, rerum ipsum?</p>
+					</div>
+				</div>
+			</div>
+			<div class="crossfit-slide">
+				<div class="crossfit-slider-effect effect-1">
+					<div data-hover-only="true" class="scene">
+						<span class="scene-item" data-depth="0.2"
+							style="background-image: url({{ asset('img/effect-1.svg') }});"></span>
+					</div>
+				</div>
+				<div class="crossfit-slider-effect effect-2">
+					<div data-hover-only="true" class="scene">
+						<span class="scene-item" data-depth="0.4"
+							style="background-image: url({{ asset('img/effect-2.svg') }});"></span>
+					</div>
+				</div>
+				<div class="crossfit-slide-bg" style="background-image: url({{ asset('img/slide-2.jpg') }});"></div>
+				<div class="container">
+					<div class="crossfit-slide-cover">
+						<h2 class="title">push <span>yourself</span></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et harum aperiam facilis ullam nihil quae dolore quisquam neque sunt, praesentium dolorum dicta aspernatur laboriosam vitae, aut esse. Reprehenderit, rerum ipsum?</p>
+					</div>
+				</div>
+			</div>
+			<div class="crossfit-slide">
+				<div class="crossfit-slider-effect effect-1">
+					<div data-hover-only="true" class="scene">
+						<span class="scene-item" data-depth="0.2"
+							style="background-image: url({{ asset('img/effect-1.svg') }});"></span>
+					</div>
+				</div>
+				<div class="crossfit-slider-effect effect-2">
+					<div data-hover-only="true" class="scene">
+						<span class="scene-item" data-depth="0.4"
+							style="background-image: url({{ asset('img/effect-2.svg') }});"></span>
+					</div>
+				</div>
+				<div class="crossfit-slide-bg" style="background-image: url({{ asset('img/slide-3.jpg') }});"></div>
+				<div class="container">
+					<div class="crossfit-slide-cover">
+						<h2 class="title">push <span>yourself</span></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et harum aperiam facilis ullam nihil quae dolore quisquam neque sunt, praesentium dolorum dicta aspernatur laboriosam vitae, aut esse. Reprehenderit, rerum ipsum?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider-navigation">
+			<div class="container">
+				<div class="slider-navigation-cover"></div>
+			</div>
+		</div>
+	</section>
 
     </div>
     {{-- presentation --}}
