@@ -23,6 +23,10 @@ Route::get('/services', function () {
     return view('gym-services');
 });
 
+Route::get('/services', function () {
+    return view('contact');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });

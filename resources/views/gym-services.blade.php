@@ -3,6 +3,7 @@
 <head>
     <title>Fitworx - Gym Services </title>
     @include("layouts/head")
+    <link rel="stylesheet" href="{{ asset('css/services.css') }}">
 </head>
 <body>
     {{-- top part --}}
