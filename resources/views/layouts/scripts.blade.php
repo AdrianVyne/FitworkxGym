@@ -4,6 +4,7 @@
 <script src="{{ asset('js/gym-services.js') }}"></script>
 <script src="{{ asset('js/gym-services2.js') }}"></script>
 <script src="{{ asset('js/contact.js') }}"></script>
+<script src="{{ asset('js/home.js') }}"></script>
 
 <!-- bootstrap -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
