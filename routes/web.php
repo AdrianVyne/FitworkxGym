@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use App\Http\Controllers\UsersController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+
+
 
 Route::get('/contact', function () {
     return view('contact-us');
@@ -31,6 +35,7 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/about/{id?}', [AboutController::class, 'show']);
 Route::get('/login', [UsersController::class, 'showLogin']);
 Route::post('/login', [UsersController::class, 'login']);
 Route::get('/logout', [UsersController::class, 'logout']);
