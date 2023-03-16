@@ -15,16 +15,12 @@ use App\Http\Controllers\UsersController;
 */
 
 Route::get('/contact', function () {
-    return view('contract-us');
+    return view('contact-us');
 });
 
 
 Route::get('/services', function () {
     return view('gym-services');
-});
-
-Route::get('/services', function () {
-    return view('contact');
 });
 
 Route::get('/', function () {
