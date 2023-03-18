@@ -124,6 +124,36 @@
           </div>
         </div>
       </div>
+
+      <section class="amenity mt-5" id="amenity">
+        	 <h2>Our Amenities</h2>
+  	<div class="content">
+  		 <div class="box wow slideInLeft">
+  		 	 <img src="img/amenities1.jpg" alt="amenity" />
+  		 </div>
+  		 <div class="box wow slideInRight">
+  		 	 <img src="img/amenities2.jpg" alt="amenity" />
+  		 </div>
+  		 <div class="box wow slideInLeft">
+  		 	 <img src="img/amenities3.jpg" alt="amenity" />
+  		 </div>
+  		 <div class="box wow slideInRight">
+  		 	 <img src="img/amenities4.jpg" alt="amenity" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="img/amenities5.jpg" alt="amenity" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="img/amenities6.jpg" alt="amenity" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="img/amenities7.jpg" alt="amenity" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="img/amenities8.jpg" alt="amenity" />
+  		 </div>
+  	</div>
+  </section>
               <script defer src="js/about.js"></script>
     </body>
   </html>
