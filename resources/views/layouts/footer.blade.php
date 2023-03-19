@@ -28,7 +28,58 @@
     
  
     </div>
- 
-    <p class="credit"> © <span>Fitworx Gym</span> All rights reserved! </p>
+     <p class="credit"> © <span>Fitworx Gym</span> All rights reserved! </p>
+
+      
+     <p class="webdev" type="button" data-toggle="modal" data-target="#exampleModal">© <span>Web Developers</span></p>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color:#fec00b";>Web Developers</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <section class="modals">
+          <div>
+            <img src="{{ asset('img/modalAdrian.jpg') }}" class="img-fluid" alt="Image"> 
+            <p>Adrian Vyne</p>
+            <p>imadrian1234@gmail.com</p>
+          </div>
+          <div>
+            <img src="{{ asset('img/modalaki.jpg') }}" class="img-fluid" alt="modal img"> 
+            <p>Vince Inaki Cruz</p>
+            <p>vinceaki11@gmail.com</p>
+          </div>
+          <div>
+            <img src="{{ asset('img/modalklyde.jpg') }}" class="img-fluid" alt="modal img"> 
+            <p>Clyde Richard Abelanio</p>
+            <p>richardabelanio@gmail.com
+            </p>
+          </div>
+          <div>
+            <img src="{{ asset('img/modalnhel.jpg') }}" class="img-fluid" alt="modal img"> 
+            <p>Jonhel Velasco</p>
+            <p>jonhelaquinovelasco@gmail.com
+            </p>
+          </div>
+          <div>
+            <img src="{{ asset('img/modalramilo.jpg') }}" class="img-fluid" alt="modal img"> 
+            <p>Ramilo Duran</p>
+            <p>ramiloduran@gmail.com
+            </p>
+          </div>
+         </section>
+
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+   </div>
  
  </section>
