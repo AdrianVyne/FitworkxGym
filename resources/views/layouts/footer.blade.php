@@ -31,13 +31,13 @@
      <p class="credit"> © <span>Fitworx Gym</span> All rights reserved! </p>
 
       
-     <p class="webdev" type="button" data-toggle="modal" data-target="#exampleModal">© <span>Web Developers</span></p>
+     <p class="webdev" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">© <span>Web Developers</span></p>
     
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel" style="color:#fec00b";>Web Developers</h5>
+             <h1 class="modal-title fs-5" id="exampleModalLabel" style="color:#fec00b";>Web Developers</h1>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -83,3 +83,5 @@
    </div>
  
  </section>
+
+ 
