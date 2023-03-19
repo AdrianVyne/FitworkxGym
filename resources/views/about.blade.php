@@ -11,7 +11,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/about.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/about.css') }}" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -129,32 +129,32 @@
         	 <h2>Our Amenities</h2>
   	<div class="content">
   		 <div class="box wow slideInLeft">
-  		 	 <img src="img/amenities1.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities1.jpg') }}" alt="amenity" />
   		 </div>
   		 <div class="box wow slideInRight">
-  		 	 <img src="img/amenities2.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities2.jpg') }}" alt="amenity" />
   		 </div>
   		 <div class="box wow slideInLeft">
-  		 	 <img src="img/amenities3.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities3.jpg') }}" alt="amenity" />
   		 </div>
   		 <div class="box wow slideInRight">
-  		 	 <img src="img/amenities4.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities4.jpg') }}" alt="amenity" />
   		 </div>
        <div class="box wow slideInRight">
-  		 	 <img src="img/amenities5.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities5.jpg') }}" alt="amenity" />
   		 </div>
        <div class="box wow slideInRight">
-  		 	 <img src="img/amenities6.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities6.jpg') }}" alt="amenity" />
   		 </div>
        <div class="box wow slideInRight">
-  		 	 <img src="img/amenities7.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities7.jpg') }}" alt="amenity" />
   		 </div>
        <div class="box wow slideInRight">
-  		 	 <img src="img/amenities8.jpg" alt="amenity" />
+  		 	 <img src="{{ asset('img/Amenities8.jpg') }}" alt="amenity" />
   		 </div>
   	</div>
   </section>
-              <script defer src="js/about.js"></script>
+              <script defer src="{{ asset('js/about.js') }}"></script>
     </body>
   </html>
 </html>

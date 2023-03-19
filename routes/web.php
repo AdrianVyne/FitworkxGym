@@ -16,7 +16,9 @@ use App\Http\Controllers\AboutController;
 */
 
 
-
+Route::get('/about', function () {
+    return view('about');
+});
 
 Route::get('/contact', function () {
     return view('contact-us');
@@ -35,7 +37,6 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/about/{id?}', [AboutController::class, 'show']);
 Route::get('/login', [UsersController::class, 'showLogin']);
 Route::post('/login', [UsersController::class, 'login']);
 Route::get('/logout', [UsersController::class, 'logout']);
