@@ -15,7 +15,7 @@
            <a href="/login">Log in</a>
         </nav>
 
-        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="menu-btn" class="fas fa-bars ms-auto"></div>
 
      </div>
 
