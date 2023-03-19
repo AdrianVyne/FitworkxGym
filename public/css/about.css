@@ -1,7 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 128, 128);
+}
+
+.mission {
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.mission .content {
+    -webkit-display: flex;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mission .content .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
+
+.mission .content .img img {
+    width: 100%;
+    display: block;
+}
+
+.mission .content .text h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(254, 192, 7);
+    padding: 0px 0px 20px;
+}
+.mission .content .text p {
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(252, 191, 10);
+    margin: 0;
+    padding: 0px 0px 20px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .video {
@@ -405,18 +452,19 @@
     display: flex;
 }
 
-.amenity .content {
+.our-team .content {
     -webkit-display: flex;
     display: flex;
     flex-wrap: wrap;
 }
 
-.amenity .content .box {
+.our-team .content .box {
     flex: 0 0 50%;
     max-width: 50%;
 }
-.amenity .content .box img {
+.our-team .content .box img {
     display: block;
+    height: 400px;
     width: 100%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -431,17 +479,84 @@
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
     border-radius: 5%;
 }
-.amenity .content .box img:hover {
+.our-team .content .box img:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
 
-.amenity h2 {
+.ourteam-des {
+    background-color: #000000;
+}
+
+.our-team h2 {
     font-size: 30px;
     font-weight: 500;
-    color: #000000;
+    color: rgb(254, 192, 7);
+    padding: 30px 0px 20px;
+    text-align: center;
+}
+
+.our-team h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(254, 192, 7);
+    margin: 0;
     padding: 0px 0px 20px;
     text-align: center;
+}
+
+/*Testemonial section*/
+.testemonial-des h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(254, 192, 7);
+    text-align: center;
+    background-color: #000000;
+}
+
+.testemonial {
+    padding: 5px 5px;
+    background-color: #000000;
+}
+
+.testemonial .content {
+    -webkit-display: flex;
+    display: flex;
+}
+.testemonial .content .box {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.testemonial .content .box .inner {
+    background-color: #222222;
+}
+.testemonial .content .box:nth-child(2) .inner {
+    background-color: rgb(85, 66, 8);
+}
+.testemonial .content .box .inner .img img {
+    width: 100%;
+}
+.testemonial .content .box .inner .text {
+    padding: 30px;
+}
+
+.testemonial .content .box .inner .text h4 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0px 0px 15px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+}
+.testemonial .content .box .inner .text p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 @keyframes playPause {
