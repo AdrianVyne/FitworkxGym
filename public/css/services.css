@@ -499,7 +499,7 @@ body {
 }
 #presentation .presentation-wrapper:before {
     content: "";
-    background: url(../img/5.jfif) no-repeat;
+    background: url(../img/5.png) no-repeat;
     background-size: contain;
     height: 771px;
     width: 678px;

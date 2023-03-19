@@ -140,20 +140,20 @@
                         </svg></button>
                     <ul class="testemonial-gallery">
                         <li class="current">
-                            <div class="lazyload current" data-src="{{ asset('img/1.jpg') }}"
+                            <div class="lazyload current" data-src="{{ asset('img/9.jpg') }}"
                                 data-alt="Giovana Wisintainer Balen Do Prado"></div>
                         </li>
                         <li>
-                            <div class="lazyload" data-src="{{ asset('img/2.jpg') }}" data-alt="Luana de Oliveira Poletto"></div>
+                            <div class="lazyload" data-src="{{ asset('img/10.jpg') }}" data-alt="Luana de Oliveira Poletto"></div>
                         </li>
                         <li>
-                            <div class="lazyload" data-src="{{ asset('img/3.jpg') }}" data-alt="RC Molon"></div>
+                            <div class="lazyload" data-src="{{ asset('img/11.jpg') }}" data-alt="RC Molon"></div>
                         </li>
                         <li>
-                            <div class="lazyload" data-src="{{ asset('img/4.jpg') }}" data-alt="Rosemari Correia da Rosa"></div>
+                            <div class="lazyload" data-src="{{ asset('img/12.jpg') }}" data-alt="Rosemari Correia da Rosa"></div>
                         </li>
                         <li>
-                            <div class="lazyload" data-src="{{ asset('img/2.jpg') }}" data-alt="Ronaldo Chiaradia"></div>
+                            <div class="lazyload" data-src="{{ asset('img/13.jpg') }}" data-alt="Ronaldo Chiaradia"></div>
                         </li>
                     </ul>
                     <button type="button" class="arrow next-arrow"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +179,7 @@
                                         rooms with our convenient showers and towel service.</em></p>
                             </div>
                         </div>
-                        <div class="lazyload testemonial-image" data-src="{{ asset('img/1.jpg') }}"
+                        <div class="lazyload testemonial-image" data-src="{{ asset('img/9.jpg') }}"
                             data-alt="Giovana Wisintainer Balen Do Prado"></div>
                     </div>
                     <div class="testemonial-box">
@@ -196,7 +196,7 @@
                                         sauna and experience the many benefits for yourself.</em></p>
                             </div>
                         </div>
-                        <div class="lazyload testemonial-image" data-src="{{ asset('img/2.jpg') }}" data-alt="Luana de Oliveira Poletto">
+                        <div class="lazyload testemonial-image" data-src="{{ asset('img/10.jpg') }}" data-alt="Luana de Oliveira Poletto">
                         </div>
                     </div>
                     <div class="testemonial-box">
@@ -213,7 +213,7 @@
                                         shower, we've got you covered.</em></p>
                             </div>
                         </div>
-                        <div class="lazyload testemonial-image" data-src="{{ asset('img/3.jpg') }}" data-alt="RC Molon"></div>
+                        <div class="lazyload testemonial-image" data-src="{{ asset('img/11.jpg') }}" data-alt="RC Molon"></div>
                     </div>
                     <div class="testemonial-box">
                         <div class="testemonial-info">
@@ -229,7 +229,7 @@
                                         to go.</em></p>
                             </div>
                         </div>
-                        <div class="lazyload testemonial-image" data-src="{{ asset('img/4.jpg') }}" data-alt="Rosemari Correia da Rosa">
+                        <div class="lazyload testemonial-image" data-src="{{ asset('img/12.jpg') }}" data-alt="Rosemari Correia da Rosa">
                         </div>
                     </div>
                     <div class="testemonial-box">
@@ -247,7 +247,7 @@
                                         juice bar has something for everyone. </em></p>
                             </div>
                         </div>
-                        <div class="lazyload testemonial-image" data-src="{{ asset('img/2.jpg') }}" data-alt="Ronaldo Chiaradia"></div>
+                        <div class="lazyload testemonial-image" data-src="{{ asset('img/13.jpg') }}" data-alt="Ronaldo Chiaradia"></div>
                     </div>
                 </div>
             </div>

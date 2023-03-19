@@ -23,14 +23,7 @@
                 <div class="row">
                     <h2 class="heading">get in <span>touch</span></h2>
 
-                    <p class="headParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quisquam
-                        reprehenderit, blanditiis nam debitis libero facilis illum repudiandae eveniet voluptatibus
-                        quibusdam illo ea nisi ipsa accusantium nobis animi asperiores quaerat ,Lorem ipsum dolor sit
-                        amet,
-                        consectetur adipisicing elit. Fugiat quisquam reprehenderit, blanditiis nam debitis libero
-                        facilis
-                        illum repudiandae eveniet voluptatibus quibusdam illo ea nisi ipsa accusantium nobis animi
-                        asperiores quaerat .</p>
+                    <p class="headParagraph">Welcome to Fitworx Gym, where we strive to help you achieve your fitness goals in a supportive and welcoming environment. Our state-of-the-art facilities include locker rooms, saunas, showers, towel service, and a juice bar, so you can make the most of your workout experience. Whether you're a beginner or an experienced athlete, we offer a wide range of fitness programs and services to help you reach your full potential.</p>
 
                     <div class="innerWrapper">
                         <ul class="contact_icon clearfix">
@@ -60,12 +53,7 @@
                     <div class="contact_form">
                         <h2 class="heading">contact us <span>by form</span></h2>
 
-                        <p class="headParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
-                            quisquam
-                            reprehenderit, blanditiis nam debitis libero facilis illum repudiandae eveniet voluptatibus
-                            quibusdam illo ea nisi ipsa accusantium nobis animi asperiores quaerat ,Lorem ipsum dolor
-                            sit
-                            amet .</p>
+                        <p class="headParagraph">At Fitworx Gym, we believe that fitness is about more than just physical health; it's also about mental and emotional wellbeing. That's why we offer a variety of classes and programs designed to promote overall wellness, including yoga, meditation, and nutrition coaching. Our team of experienced trainers and coaches are here to support you every step of the way, and we're dedicated to helping you achieve a healthier, happier, and more fulfilling life. So come visit us today and see why Fitworx Gym is the ultimate destination for all your fitness needs!</p>
 
                         <form data-parsley-validate="" name="contact" class="formcontact clearfix">
                             <div class="form-group"><input type="text" class="form-control" name=name placeholder=Name
