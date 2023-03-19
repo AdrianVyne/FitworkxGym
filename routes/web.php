@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,17 +15,18 @@ use App\Http\Controllers\UsersController;
 |
 */
 
+
+Route::get('/about', function () {
+    return view('about');
+});
+
 Route::get('/contact', function () {
-    return view('contract-us');
+    return view('contact-us');
 });
 
 
 Route::get('/services', function () {
     return view('gym-services');
-});
-
-Route::get('/services', function () {
-    return view('contact');
 });
 
 Route::get('/', function () {
