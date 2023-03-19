@@ -4,9 +4,8 @@
     @include("layouts/head")
 <link rel="stylesheet" href="{{ asset('css/login.css') }}">
   <title>FITWORX LOGIN PAGE</title>
-  
 </head>
-<body>
+<body >
     @include("layouts/navbar")
     <section>
         <div class="form-box">
