@@ -9,33 +9,7 @@
 <body>
 
 
-
-<header class="header fixed-top">
-
-   <div class="container">
-
-      <div class="row align-items-center justify-content-between">
-
-         <a href="#" class="logo"><span>Fitworx</span>gym</a>
-
-         <nav class="nav">
-            <a href="#home">Home</a>
-            <a href="#About Us">About Us</a>
-            <a href="#Gym Services">Gym Services</a>
-            <a href="#Fitness Programs">Fitness Programs</a>
-            <a href="Contact Us">Contact Us</a>
-            <a href="log-in.html">Log in</a>
-
-
-         </nav>
-
-         <div id="menu-btn" class="fas fa-bars"></div>
-
-      </div>
-
-   </div>
-
-</header>
+   @include("layouts/navbar")
 
 
 
@@ -322,43 +296,8 @@
 
 
 
-<section class="footer">
-
-   <div class="box-container container">
-
-      <div class="box">
-         <h3>quick links</h3>
-         <a href="#"> <i class="fas fa-angle-right"></i> home</a>
-         <a href="#"> <i class="fas fa-angle-right"></i> About Us</a>
-         <a href="#"> <i class="fas fa-angle-right"></i> Gym Services</a>
-         <a href="#"> <i class="fas fa-angle-right"></i> Fitness Programs</a>
-         <a href="#"> <i class="fas fa-angle-right"></i> Contact Us</a>
-         <a href="#"> <i class="fas fa-angle-right"></i> Log in</a>
-      </div>
-
-      <div class="box">
-         <h3>contact info</h3>
-         <a href="#"> <i class="fas fa-phone"></i> +63933-874-5377 </a>
-         <a href="#"> <i class="fas fa-phone"></i> +63933-874-5377 </a>
-         <a href="#"> <i class="fas fa-envelope"></i> fitworxgym@gmail.com </a>
-         <a href="#"> <i class="fas fa-map"></i> Camarin, Caloocan Philippines </a>
-      </div>
-
-      <div class="box">
-         <h3>follow us</h3>
-         <a href="#https://www.facebook.com/fitworxgymph"> <i class="fab fa-facebook-f"></i> facebook </a>
-         <a href="#https://www.instagram.com/fitworxgym/"> <i class="fab fa-instagram"></i> instagram </a>
-      </div>
-
-   
-
-   </div>
-
-   <p class="credit"> © <span>Fitworx Gym</span> All rights reserved! </p>
-
-</section>
-
-<script src="js/script.js"></script>
+@include("layouts/footer")
+@include("layouts/scripts")
    
 </body>
 </html>

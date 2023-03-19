@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ asset('css/services.css') }}">
 </head>
 <body>
+    @include("layouts/navbar")
     {{-- top part --}}
     <section class="s-crossfit-slider">
 		<div class="crossfit-slider">
@@ -252,6 +253,7 @@
             </div>
         </div>
     </section>
+    @include("layouts/footer")
     @include("layouts/scripts")
 </body>
 

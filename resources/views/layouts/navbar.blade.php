@@ -1,31 +1,26 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-          <a class="nav-link" href="/admin/students">Students</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/admin/faculties">Faculties</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/admin/orders">Orders</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/admin/register">Register</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/logout">Logout</a>
-      </li>
-    </div>
+<header class="header fixed-top">
+
+  <div class="container">
+
+     <div class="row align-items-center justify-content-between">
+
+        <a href="/" class="logo"><span>Fitworx</span>gym</a>
+
+        <nav class="nav">
+           <a href="/">Home</a>
+           <a href="/about">About Us</a>
+           <a href="/services">Gym Services</a>
+           <a href="/programs">Fitness Programs</a>
+           <a href="/contact">Contact Us</a>
+           <a href="/login">Log in</a>
+
+
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+     </div>
+
   </div>
-</nav>
-@if(Session::has('success'))
-    <p id="notif" style="background-color:green; color:white">{{Session::get('success')}}</p>
-@elseif(Session::has('fail'))
-    <p id="notif" style="background-color:red; color:white">{{Session::get('fail')}}</p>
-@endif
+
+</header>

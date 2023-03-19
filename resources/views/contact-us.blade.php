@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+    @include("layouts/navbar")
     <div class="wrapper">
         <div class="innerbannerwrap">
             <div class="innerbanner">
@@ -32,7 +34,7 @@
 
                     <div class="innerWrapper">
                         <ul class="contact_icon clearfix">
-                            <li><a href=tel:+63933874537><i class="fa fa-phone"></i> <span>+63
+                            <li><a href=tel:+639338745377><i class="fa fa-phone"></i> <span>+63
                                         933-874-5377</span></a>
                             </li>
                             <li><a href=mailto:mail@yoursite.com><i class="fa fa-envelope"></i>
@@ -90,6 +92,7 @@
             </div>
         </section>
     </div>
+    @include("layouts/footer")
         @include("layouts/scripts")
 
 </body>
