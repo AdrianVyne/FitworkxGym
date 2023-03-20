@@ -213,7 +213,7 @@
             <h3>Trainer Dapo</h3>
          </div>
          <div class="share">
-            <a href="#https://www.facebook.com/master.dapo" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/master.dapo" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             
@@ -227,7 +227,7 @@
             <h3>Trainer Joel</h3>
          </div>
          <div class="share">
-            <a href="#https://www.facebook.com/xXcerelacXx" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/xXcerelacXx" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             
@@ -241,7 +241,7 @@
             <h3>Trainer Mark</h3>
          </div>
          <div class="share">
-            <a href="#https://www.facebook.com/marcanthony.villafuerte" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/marcanthony.villafuerte" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
            
