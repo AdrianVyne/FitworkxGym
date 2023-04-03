@@ -26,8 +26,11 @@
                         <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
                       
                     </div>
-                    <button>Log in</button>
+                    <button>Log in</button> 
                     
+                    <a href="http://blooming-falls-73263.herokuapp.com/">functional login page</a>
+                    user: superuser
+                    password: 12345
                 </form>
             </div>
         </div>
