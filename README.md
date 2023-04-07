@@ -1,25 +1,14 @@
+# FitworxGym Login Function Showcase
 
-# Gym Website
+This is a separate project aimed at showcasing the login function of FitworxGym, which was originally created by AdrianVyne. The original project can be found [here](https://github.com/AdrianVyne/FitworkxGym).
 
-This project is a Laravel-based gym website created as part of the KodeGo Full Stack Website Development Bootcamp capstone project. It was created by our team of collaborators as a partial fulfillment of the course.
+To access the live website, please click [here](http://blooming-falls-73263.herokuapp.com/).
 
-## Features
+The purpose of this project is to continue the development of the login function and provide an in-depth demonstration of its features and capabilities.
 
-<li>User authentication and authorization</li>
-<li>Membership and payment management</li>
-<li>Class scheduling and reservation</li>
-<li>Trainer profiles and booking</li>
-<li>Contact and feedback form</li>
+To access the login function, use the following credentials:
 
+-   **Username:** superuser
+-   **Password:** 12345
 
-## Live Website
-
-this project is live at http://fitworx-gym.herokuapp.com/
-
-
-## Contributing
-
-We welcome contributions from anyone. Please feel free to submit a pull request or raise an issue if you encounter any problems or have suggestions for improvement.
-
-## Acknowledgments
-We would like to express our gratitude to KodeGo Full Stack Website Development Bootcamp for providing us with the knowledge and skills to create this project. We would also like to thank our mentors and collaborators for their support and assistance throughout the development process.
+Feel free to explore and test out the login function to see how it works. If you have any questions or feedback, please don't hesitate to contact us.
